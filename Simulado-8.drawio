@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
+  <diagram name="Página-1" id="ZgjQ4dKgStwNnGMrLZx5">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WtaYcWtsvilVGnNnbV_x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WtaYcWtsvilVGnNnbV_x-2" target="frycxLeRNae57KAj_Phw-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WtaYcWtsvilVGnNnbV_x-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="535" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-3" target="frycxLeRNae57KAj_Phw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-3" value="CONTADOR = 1&lt;div&gt;SOMA = 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="535" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-5" target="frycxLeRNae57KAj_Phw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-5" value="N" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="535" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-6" target="frycxLeRNae57KAj_Phw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-13" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frycxLeRNae57KAj_Phw-7">
+          <mxGeometry x="0.2" y="3" relative="1" as="geometry">
+            <mxPoint x="1042" y="540" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-16" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frycxLeRNae57KAj_Phw-7">
+          <mxGeometry x="-0.6667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-6" value="CONTADOR &amp;lt;= 4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="515" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-8" target="frycxLeRNae57KAj_Phw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-8" value="SOMA = N * N + SOMA" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="400" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-10" value="&lt;div&gt;CONTADOR = CONTADOR + 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="497" y="470" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-10" target="frycxLeRNae57KAj_Phw-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="490" />
+              <mxPoint x="450" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-14" target="frycxLeRNae57KAj_Phw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-14" value="SOMA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="535" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frycxLeRNae57KAj_Phw-6" target="frycxLeRNae57KAj_Phw-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="265" />
+              <mxPoint x="700" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-17" value="NÃO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frycxLeRNae57KAj_Phw-15">
+          <mxGeometry x="-0.9139" y="2" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frycxLeRNae57KAj_Phw-18" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="535" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
